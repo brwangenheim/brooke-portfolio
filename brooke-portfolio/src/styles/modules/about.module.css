@@ -1,0 +1,140 @@
+.about {
+  background: #fafbfc;
+  padding: 60px 64px 60px 64px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.headerRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #3a4a6b;
+  letter-spacing: 2px;
+  text-align: left;
+  line-height: 1.1;
+  margin: 0 0 32px 0;
+}
+
+.kicker {
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.grid { display: block; }
+
+.textRow { display: flex; gap: 48px; background: #fff; border: 1px solid #e8edf6; border-radius: 14px; padding: 48px; box-shadow: 0 2px 8px rgba(58, 74, 107, 0.06); align-items: flex-start; }
+.photoWrap { flex: 0 0 260px; }
+.copy { flex: 1 1 auto; min-width: 0; }
+
+.lead {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #1e2a44;
+  margin: 0 0 10px 0;
+}
+
+.body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #3a4a6b;
+  margin: 0;
+}
+
+.pillsRow { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.pill { background: #eef2fb; color: #3a4a6b; font-size: 0.85rem; font-weight: 600; border-radius: 999px; padding: 6px 10px; border: 1px solid #e1e7f5; }
+
+.photo { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 10px; display: block; }
+
+.subhead {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #3a4a6b;
+  margin: 0 0 12px 0;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  background: #eef2fb;
+  color: #3a4a6b;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 6px 10px;
+  border: 1px solid #e1e7f5;
+}
+
+.divider {
+  height: 1px;
+  background: #e8edf6;
+  margin: 16px 0 12px 0;
+}
+
+.eduRow { display: flex; align-items: center; justify-content: space-between; }
+.eduSchool { font-weight: 700; color: #1e2a44; }
+.eduMeta { font-size: 0.95rem; color: #6b7280; }
+
+.educationTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3a4a6b;
+  margin-bottom: 20px;
+}
+
+.educationItem h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e2a44;
+  margin: 0 0 8px 0;
+}
+
+.educationItem p {
+  font-size: 1rem;
+  color: #3a4a6b;
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+}
+
+.educationDetails {
+  font-size: 0.9rem !important;
+  color: #6b7280 !important;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about { padding: 52px 0 52px 0; }
+  .container { padding: 0 20px; }
+  .headerRow { flex-direction: column; gap: 8px; }
+  .title { font-size: 2.2rem; margin-bottom: 8px; }
+  .grid { display: block; }
+  .textRow { flex-direction: column; padding: 24px; gap: 24px; }
+  .photoWrap { flex: none; width: 100%; max-width: 360px; }
+}

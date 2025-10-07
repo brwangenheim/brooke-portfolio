@@ -34,6 +34,7 @@ export default function About() {
               bar on quality and clarity.
             </p>
             <p className={styles.body}>
+              
             Unplugged, you can find me perfecting my matcha latte recipe, front-row at a concert, or somewhere in the ocean. 
             </p>
 
